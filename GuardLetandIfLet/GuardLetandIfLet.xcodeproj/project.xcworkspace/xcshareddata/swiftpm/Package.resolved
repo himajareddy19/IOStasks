@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "materialoutlinedtextfield",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/flowbe/MaterialOutlinedTextField.git",
+      "state" : {
+        "revision" : "0e60b562be2cdc8b3fddc4e95930a245fb804a64",
+        "version" : "0.1.1"
+      }
+    }
+  ],
+  "version" : 2
+}
