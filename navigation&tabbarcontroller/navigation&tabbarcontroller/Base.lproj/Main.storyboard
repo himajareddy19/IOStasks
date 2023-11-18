@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OxA-hT-w4k">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--tolly-->
+        <scene sceneID="xIM-wK-Vgg">
+            <objects>
+                <viewController id="L5F-Fu-Z5V" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="C2M-Vg-qxc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="FkK-qQ-tyi"/>
+                        <color key="backgroundColor" systemColor="systemTealColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="tolly" id="5my-rL-SzJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NFf-qz-Rpp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1523.1884057971015" y="204.91071428571428"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="6ol-Zi-fWw">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="OxA-hT-w4k" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Q5g-H1-DRu">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="fr3-Mu-FWq" kind="relationship" relationship="viewControllers" id="amH-4w-JCW"/>
+                        <segue destination="EAJ-WH-4i9" kind="relationship" relationship="viewControllers" id="4QN-S9-ksS"/>
+                        <segue destination="ibM-ws-XQY" kind="relationship" relationship="viewControllers" id="Teg-NT-gJL"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Utp-Jq-9KX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-428" y="921"/>
+        </scene>
+        <!--Tollywood-->
+        <scene sceneID="pwv-0a-oOH">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fr3-Mu-FWq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Tollywood" image="square.and.arrow.up" catalog="system" id="sq3-H2-BlX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lkv-iA-gPd">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="L5F-Fu-Z5V" kind="relationship" relationship="rootViewController" id="Bdl-hV-NI6"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dQA-DG-avS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="613.04347826086962" y="204.91071428571428"/>
+        </scene>
+        <!--kolly-->
+        <scene sceneID="dN4-md-T6Q">
+            <objects>
+                <viewController id="wEQ-pm-WIM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Yey-8H-Ant">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Lsl-o5-KBP"/>
+                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="kolly" id="aZ0-Yy-Doz"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ExZ-Yl-SAG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1580" y="929"/>
+        </scene>
+        <!--kollywood-->
+        <scene sceneID="ZVJ-AC-moJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="EAJ-WH-4i9" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="kollywood" id="m9t-s8-xrw"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="wdW-8m-KEb">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="wEQ-pm-WIM" kind="relationship" relationship="rootViewController" id="0vc-rc-did"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WWO-uf-gzP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="593" y="929"/>
+        </scene>
+        <!--bolly-->
+        <scene sceneID="cpK-KL-Arp">
+            <objects>
+                <viewController id="S2q-nN-Wkd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="5Wz-hX-LGt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="2UH-yB-dQk"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="bolly" id="h4U-EQ-edM"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Glu-sp-aOx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1558" y="1608"/>
+        </scene>
+        <!--bollywood-->
+        <scene sceneID="zmm-g1-oEY">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ibM-ws-XQY" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="bollywood" id="qVe-yl-fvX"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="758-1B-i3N">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="S2q-nN-Wkd" kind="relationship" relationship="rootViewController" id="Iei-z5-vMt"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dqp-zI-wXR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="649" y="1648"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemIndigoColor">
+            <color red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemTealColor">
+            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
