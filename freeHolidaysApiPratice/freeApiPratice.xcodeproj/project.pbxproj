@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A161CEE22A1E237F002D0FA3 /* EnglandAndWalesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161CEE12A1E237F002D0FA3 /* EnglandAndWalesViewController.swift */; };
+		A161CEE42A1E23BE002D0FA3 /* NorthernIrelandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A161CEE32A1E23BE002D0FA3 /* NorthernIrelandViewController.swift */; };
+		A164DBBD2A1D0A2500098A4D /* HolidaysTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A164DBBB2A1D0A2500098A4D /* HolidaysTableViewCell.swift */; };
+		A164DBBE2A1D0A2500098A4D /* HolidaysTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A164DBBC2A1D0A2500098A4D /* HolidaysTableViewCell.xib */; };
+		A19C76B82A1B80010056A7AD /* worldsHolidaysList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A19C76B72A1B80010056A7AD /* worldsHolidaysList.swift */; };
+		A1F63BE92A0223880026A1CE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F63BE82A0223880026A1CE /* AppDelegate.swift */; };
+		A1F63BEB2A0223880026A1CE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F63BEA2A0223880026A1CE /* SceneDelegate.swift */; };
+		A1F63BED2A0223880026A1CE /* ScotLandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F63BEC2A0223880026A1CE /* ScotLandViewController.swift */; };
+		A1F63BF02A0223880026A1CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F63BEE2A0223880026A1CE /* Main.storyboard */; };
+		A1F63BF32A0223880026A1CE /* freeApiPratice.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A1F63BF12A0223880026A1CE /* freeApiPratice.xcdatamodeld */; };
+		A1F63BF52A0223890026A1CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F63BF42A0223890026A1CE /* Assets.xcassets */; };
+		A1F63BF82A0223890026A1CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F63BF62A0223890026A1CE /* LaunchScreen.storyboard */; };
+		A1F63C032A02238A0026A1CE /* freeApiPraticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F63C022A02238A0026A1CE /* freeApiPraticeTests.swift */; };
+		A1F63C0E2A02238A0026A1CE /* freeApiPraticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F63C0D2A02238A0026A1CE /* freeApiPraticeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1F63BFF2A02238A0026A1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F63BDD2A0223880026A1CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F63BE42A0223880026A1CE;
+			remoteInfo = freeApiPratice;
+		};
+		A1F63C0A2A02238A0026A1CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1F63BDD2A0223880026A1CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1F63BE42A0223880026A1CE;
+			remoteInfo = freeApiPratice;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A161CEE12A1E237F002D0FA3 /* EnglandAndWalesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglandAndWalesViewController.swift; sourceTree = "<group>"; };
+		A161CEE32A1E23BE002D0FA3 /* NorthernIrelandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NorthernIrelandViewController.swift; sourceTree = "<group>"; };
+		A164DBBB2A1D0A2500098A4D /* HolidaysTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HolidaysTableViewCell.swift; sourceTree = "<group>"; };
+		A164DBBC2A1D0A2500098A4D /* HolidaysTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HolidaysTableViewCell.xib; sourceTree = "<group>"; };
+		A19C76B72A1B80010056A7AD /* worldsHolidaysList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = worldsHolidaysList.swift; sourceTree = "<group>"; };
+		A1F63BE52A0223880026A1CE /* freeApiPratice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = freeApiPratice.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F63BE82A0223880026A1CE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1F63BEA2A0223880026A1CE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1F63BEC2A0223880026A1CE /* ScotLandViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScotLandViewController.swift; sourceTree = "<group>"; };
+		A1F63BEF2A0223880026A1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1F63BF22A0223880026A1CE /* freeApiPratice.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = freeApiPratice.xcdatamodel; sourceTree = "<group>"; };
+		A1F63BF42A0223890026A1CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1F63BF72A0223890026A1CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1F63BF92A0223890026A1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F63BFE2A02238A0026A1CE /* freeApiPraticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freeApiPraticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F63C022A02238A0026A1CE /* freeApiPraticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freeApiPraticeTests.swift; sourceTree = "<group>"; };
+		A1F63C042A02238A0026A1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F63C092A02238A0026A1CE /* freeApiPraticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = freeApiPraticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1F63C0D2A02238A0026A1CE /* freeApiPraticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = freeApiPraticeUITests.swift; sourceTree = "<group>"; };
+		A1F63C0F2A02238A0026A1CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1F63BE22A0223880026A1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F63BFB2A02238A0026A1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F63C062A02238A0026A1CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A164DBBA2A1D09C100098A4D /* HolidaysAPIViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A19C76B72A1B80010056A7AD /* worldsHolidaysList.swift */,
+				A1F63BEC2A0223880026A1CE /* ScotLandViewController.swift */,
+				A161CEE12A1E237F002D0FA3 /* EnglandAndWalesViewController.swift */,
+				A161CEE32A1E23BE002D0FA3 /* NorthernIrelandViewController.swift */,
+				A164DBBB2A1D0A2500098A4D /* HolidaysTableViewCell.swift */,
+			);
+			path = HolidaysAPIViewControllers;
+			sourceTree = "<group>";
+		};
+		A1F63BDC2A0223880026A1CE = {
+			isa = PBXGroup;
+			children = (
+				A1F63BE72A0223880026A1CE /* freeApiPratice */,
+				A1F63C012A02238A0026A1CE /* freeApiPraticeTests */,
+				A1F63C0C2A02238A0026A1CE /* freeApiPraticeUITests */,
+				A1F63BE62A0223880026A1CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1F63BE62A0223880026A1CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1F63BE52A0223880026A1CE /* freeApiPratice.app */,
+				A1F63BFE2A02238A0026A1CE /* freeApiPraticeTests.xctest */,
+				A1F63C092A02238A0026A1CE /* freeApiPraticeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1F63BE72A0223880026A1CE /* freeApiPratice */ = {
+			isa = PBXGroup;
+			children = (
+				A1F63BE82A0223880026A1CE /* AppDelegate.swift */,
+				A1F63BEA2A0223880026A1CE /* SceneDelegate.swift */,
+				A164DBBA2A1D09C100098A4D /* HolidaysAPIViewControllers */,
+				A1F63BEE2A0223880026A1CE /* Main.storyboard */,
+				A164DBBC2A1D0A2500098A4D /* HolidaysTableViewCell.xib */,
+				A1F63BF42A0223890026A1CE /* Assets.xcassets */,
+				A1F63BF62A0223890026A1CE /* LaunchScreen.storyboard */,
+				A1F63BF92A0223890026A1CE /* Info.plist */,
+				A1F63BF12A0223880026A1CE /* freeApiPratice.xcdatamodeld */,
+			);
+			path = freeApiPratice;
+			sourceTree = "<group>";
+		};
+		A1F63C012A02238A0026A1CE /* freeApiPraticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F63C022A02238A0026A1CE /* freeApiPraticeTests.swift */,
+				A1F63C042A02238A0026A1CE /* Info.plist */,
+			);
+			path = freeApiPraticeTests;
+			sourceTree = "<group>";
+		};
+		A1F63C0C2A02238A0026A1CE /* freeApiPraticeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A1F63C0D2A02238A0026A1CE /* freeApiPraticeUITests.swift */,
+				A1F63C0F2A02238A0026A1CE /* Info.plist */,
+			);
+			path = freeApiPraticeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1F63BE42A0223880026A1CE /* freeApiPratice */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F63C122A02238A0026A1CE /* Build configuration list for PBXNativeTarget "freeApiPratice" */;
+			buildPhases = (
+				A1F63BE12A0223880026A1CE /* Sources */,
+				A1F63BE22A0223880026A1CE /* Frameworks */,
+				A1F63BE32A0223880026A1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = freeApiPratice;
+			productName = freeApiPratice;
+			productReference = A1F63BE52A0223880026A1CE /* freeApiPratice.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1F63BFD2A02238A0026A1CE /* freeApiPraticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F63C152A02238A0026A1CE /* Build configuration list for PBXNativeTarget "freeApiPraticeTests" */;
+			buildPhases = (
+				A1F63BFA2A02238A0026A1CE /* Sources */,
+				A1F63BFB2A02238A0026A1CE /* Frameworks */,
+				A1F63BFC2A02238A0026A1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F63C002A02238A0026A1CE /* PBXTargetDependency */,
+			);
+			name = freeApiPraticeTests;
+			productName = freeApiPraticeTests;
+			productReference = A1F63BFE2A02238A0026A1CE /* freeApiPraticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A1F63C082A02238A0026A1CE /* freeApiPraticeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1F63C182A02238A0026A1CE /* Build configuration list for PBXNativeTarget "freeApiPraticeUITests" */;
+			buildPhases = (
+				A1F63C052A02238A0026A1CE /* Sources */,
+				A1F63C062A02238A0026A1CE /* Frameworks */,
+				A1F63C072A02238A0026A1CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1F63C0B2A02238A0026A1CE /* PBXTargetDependency */,
+			);
+			name = freeApiPraticeUITests;
+			productName = freeApiPraticeUITests;
+			productReference = A1F63C092A02238A0026A1CE /* freeApiPraticeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1F63BDD2A0223880026A1CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					A1F63BE42A0223880026A1CE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					A1F63BFD2A02238A0026A1CE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A1F63BE42A0223880026A1CE;
+					};
+					A1F63C082A02238A0026A1CE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = A1F63BE42A0223880026A1CE;
+					};
+				};
+			};
+			buildConfigurationList = A1F63BE02A0223880026A1CE /* Build configuration list for PBXProject "freeApiPratice" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1F63BDC2A0223880026A1CE;
+			productRefGroup = A1F63BE62A0223880026A1CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1F63BE42A0223880026A1CE /* freeApiPratice */,
+				A1F63BFD2A02238A0026A1CE /* freeApiPraticeTests */,
+				A1F63C082A02238A0026A1CE /* freeApiPraticeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1F63BE32A0223880026A1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F63BF82A0223890026A1CE /* LaunchScreen.storyboard in Resources */,
+				A1F63BF52A0223890026A1CE /* Assets.xcassets in Resources */,
+				A164DBBE2A1D0A2500098A4D /* HolidaysTableViewCell.xib in Resources */,
+				A1F63BF02A0223880026A1CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F63BFC2A02238A0026A1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F63C072A02238A0026A1CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1F63BE12A0223880026A1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F63BED2A0223880026A1CE /* ScotLandViewController.swift in Sources */,
+				A1F63BE92A0223880026A1CE /* AppDelegate.swift in Sources */,
+				A1F63BEB2A0223880026A1CE /* SceneDelegate.swift in Sources */,
+				A19C76B82A1B80010056A7AD /* worldsHolidaysList.swift in Sources */,
+				A164DBBD2A1D0A2500098A4D /* HolidaysTableViewCell.swift in Sources */,
+				A161CEE42A1E23BE002D0FA3 /* NorthernIrelandViewController.swift in Sources */,
+				A161CEE22A1E237F002D0FA3 /* EnglandAndWalesViewController.swift in Sources */,
+				A1F63BF32A0223880026A1CE /* freeApiPratice.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F63BFA2A02238A0026A1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F63C032A02238A0026A1CE /* freeApiPraticeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1F63C052A02238A0026A1CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1F63C0E2A02238A0026A1CE /* freeApiPraticeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1F63C002A02238A0026A1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F63BE42A0223880026A1CE /* freeApiPratice */;
+			targetProxy = A1F63BFF2A02238A0026A1CE /* PBXContainerItemProxy */;
+		};
+		A1F63C0B2A02238A0026A1CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1F63BE42A0223880026A1CE /* freeApiPratice */;
+			targetProxy = A1F63C0A2A02238A0026A1CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1F63BEE2A0223880026A1CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F63BEF2A0223880026A1CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1F63BF62A0223890026A1CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1F63BF72A0223890026A1CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1F63C102A02238A0026A1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1F63C112A02238A0026A1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1F63C132A02238A0026A1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = freeApiPratice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NavyaReddy.freeApiPratice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1F63C142A02238A0026A1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = freeApiPratice/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NavyaReddy.freeApiPratice;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1F63C162A02238A0026A1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = freeApiPraticeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NavyaReddy.freeApiPraticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/freeApiPratice.app/freeApiPratice";
+			};
+			name = Debug;
+		};
+		A1F63C172A02238A0026A1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = freeApiPraticeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NavyaReddy.freeApiPraticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/freeApiPratice.app/freeApiPratice";
+			};
+			name = Release;
+		};
+		A1F63C192A02238A0026A1CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = freeApiPraticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NavyaReddy.freeApiPraticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = freeApiPratice;
+			};
+			name = Debug;
+		};
+		A1F63C1A2A02238A0026A1CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = freeApiPraticeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = NavyaReddy.freeApiPraticeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = freeApiPratice;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1F63BE02A0223880026A1CE /* Build configuration list for PBXProject "freeApiPratice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F63C102A02238A0026A1CE /* Debug */,
+				A1F63C112A02238A0026A1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F63C122A02238A0026A1CE /* Build configuration list for PBXNativeTarget "freeApiPratice" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F63C132A02238A0026A1CE /* Debug */,
+				A1F63C142A02238A0026A1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F63C152A02238A0026A1CE /* Build configuration list for PBXNativeTarget "freeApiPraticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F63C162A02238A0026A1CE /* Debug */,
+				A1F63C172A02238A0026A1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1F63C182A02238A0026A1CE /* Build configuration list for PBXNativeTarget "freeApiPraticeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1F63C192A02238A0026A1CE /* Debug */,
+				A1F63C1A2A02238A0026A1CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A1F63BF12A0223880026A1CE /* freeApiPratice.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A1F63BF22A0223880026A1CE /* freeApiPratice.xcdatamodel */,
+			);
+			currentVersion = A1F63BF22A0223880026A1CE /* freeApiPratice.xcdatamodel */;
+			path = freeApiPratice.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A1F63BDD2A0223880026A1CE /* Project object */;
+}
